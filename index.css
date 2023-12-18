@@ -232,6 +232,66 @@ header .navbar ul li a:hover{
     color:#fff;
 }
 
+.certification .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+.certification h1{
+    color: var(--yellow);
+}
+.certification span{
+    color: white;
+}
+
+.certification .box-container .box{
+    width:33rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+.certification .box-container .box:nth-child(3){
+    margin-top: 25px;
+}
+
+.certification .box-container .box span{
+    font-size: 1.3rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.certification .box-container .box h3{
+    font-size: 2rem;
+    color:var(--yellow);
+    padding-top: 1.5rem;
+}
+
+.certification .box-container .box p{
+    font-size: 1.4rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.certification .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+    background:var(--yellow);
+} 
+
+
 .education .box-container{
     display: flex;
     align-items: center;
